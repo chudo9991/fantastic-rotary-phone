@@ -1,0 +1,88 @@
+.what {
+    width: 100%;
+    height: rem(817px);
+    @include desktop {
+        padding-top: 10vh;
+    }
+
+    background-color: #fff;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__container {
+        width: 80%;
+        height: rem(583px);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        // border: 1px dashed blue;
+    }
+
+    &__icon {
+        width: 60xp;
+        height: 71px;
+    }
+
+    &__header {
+        text-align: center;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 300;
+        font-size: rem(40px);
+        line-height: rem(49px);
+        text-align: center;
+        letter-spacing: -0.01em;
+        color: #222222;
+        margin-bottom: rem(58px);  
+    }
+    &__carddeck {
+        width: 80vw;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 1fr;
+
+
+    }
+    &__card {        
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+
+        h3 {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 150%;
+            color: #222222;
+        }
+        &__text {
+            font-family: Manrope;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 160%;
+            color: #444545;
+        }
+
+        &__small-text {
+            font-family: Manrope;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 16px;
+            color: #757575;
+
+            position: relative;
+            top: rem(70px)
+        }
+
+        &__line {
+            width: 100%
+        }
+    }
+}

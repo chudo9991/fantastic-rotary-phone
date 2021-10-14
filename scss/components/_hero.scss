@@ -1,0 +1,76 @@
+.hero {
+    width: 100%;
+    height: rem(800px);
+
+    background-image: url('../../img/hero_bg.png');
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+
+    display: flex;
+    justify-content: start;
+    align-items: start;
+
+    &__container {
+        width: rem(574px);
+        height: rem(542px);
+        // border: 1px dashed blue;
+
+        padding-top: rem(110px);
+        padding-left: rem(200px);
+    }
+
+    &__title-ordinary {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 900;
+        font-size: rem(62px);
+        line-height: 120%;
+        text-transform: uppercase;
+        text-align: left;
+    }
+
+    &__title-big {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 900;
+        font-size: rem(160px);
+        line-height: 100%;
+        text-transform: uppercase;
+        color: #000;
+    }
+
+    &__title-red {
+        font-family: Manrope;
+        font-style: normal;
+        font-weight: bold;
+        font-size: rem(28px);
+        line-height: 130%;
+        color: #EF4646;
+    }
+
+    ul {
+        list-style: none; /* Remove default bullets */
+        padding: rem(38px) 0 rem(31px) 0;
+        margin: 0;
+
+        li {
+            font-family: Manrope;
+            font-style: normal;
+            font-weight: normal;
+            font-size: rem(20px);
+            line-height: 170%;
+            color: #000000;
+        }
+      }
+      
+    ul li::before {
+        content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+        color: red; /* Change the color */
+        font-weight: bold; /* If you want it to be bold */
+        display: inline-block; /* Needed to add space between the bullet and the text */
+        width: rem(8px); /* Also needed for space (tweak if needed) */
+        margin-right: rem(8px); /* Also needed for space (tweak if needed) */
+        }
+
+}

@@ -4,456 +4,155 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=0.75">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Manrope:wght@400&family=Montserrat:wght@900&family=Nunito:wght@400&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/style.css">
     <title>MAIN PAGE</title>
 </head>
 
 <body>
-    <header class="header">
-        <div class="buttons">
-            <button class="buttons__burger">
-                <div class="burger-wrapper">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
-            </button>
-            <button class="buttons__consult">
-                Получить консультацию
-            </button>
-        </div>
+    <header class="top">
+        <nav class="container">
+            <div class="top__logo">orthoped.<span>pro</span></div>
 
-        <div class="container">
-
-            <div class="header__logo">
-                <svg class="header__logo-image">
-                    <use xlink:href="./icons/sprite.svg#logo"></use>
-                </svg>
-            </div>
-
-
-
-            <h1 class="header__title">
-                Мы разрабатываем продукты для повышения эффективности управления ТРЦ
-            </h1>
-
-            <div class="header__info">
-                <div class="header__item">
-                    <div class="header__title-wrapper">
-                        <h2 class="header__info-title">
-                            Цифровые инструменты управления ТРЦ
-                        </h2>
-                    </div>
-
-                    <p class="header__info-content">
-                        Внезапно, диаграммы связей лишь добавляют фракционных разногласий и превращены в посмешище, хотя
-                        само их существование приносит несомненную пользу обществу.
-                    </p>
-                    <div class="header__info-link">
-                        Подробнее
-                        <svg class="link-arrow">
-                            <use xlink:href="./icons/sprite.svg#arrow_link"></use>
-                        </svg>
-                    </div>
-                </div>
-                <div class="header__item">
-                    <div class="header__title-wrapper">
-                        <h2 class="header__info-title">
-                            Система <br> «MARS»
-                        </h2>
-                    </div>
-                    <p class="header__info-content">
-                        Внезапно, диаграммы связей лишь добавляют фракционных разногласий и превращены в посмешище, хотя
-                        само их существование приносит несомненную пользу обществу.
-                    </p>
-                    <div class="header__info-link">
-                        Подробнее
-                        <svg class="link-arrow">
-                            <use xlink:href="./icons/sprite.svg#arrow_link"></use>
-                        </svg>
-                    </div>
-                </div>
-                <div class="header__item">
-                    <div class="header__title-wrapper">
-                        <h2 class="header__info-title">Маркетинговое агентство</h2>
-                    </div>
-                    <p class="header__info-content">
-                        Внезапно, диаграммы связей лишь добавляют фракционных разногласий и превращены в посмешище, хотя
-                        само их существование приносит несомненную пользу обществу.
-                    </p>
-                    <div class="header__info-link">
-                        Подробнее
-                        <svg class="link-arrow">
-                            <use xlink:href="./icons/sprite.svg#arrow_link"></use>
-                        </svg>
-                    </div>
-                </div>
-            </div>
-        </div>
+            <ul class="top__contacts">
+                <li>
+                    <span>Контакты</span>
+                </li>
+                <li>
+                    <svg class="top__whatsapp">
+                        <use xlink:href="./icons/sprite.svg#whatsapp"></use>
+                    </svg>
+                </li>
+            </ul>
+        </nav>
     </header>
 
     <main>
-        <section class="promo">
-            <div class="container">
-                <div class="promo__info">
-                    <p class="info__item">
-                        <span class="colored">MALLTECH Lab</span> – новое бизнес-направление компании MALLTECH,
-                        осуществляющее разработку продуктов для цифрового управления бизнесом ТРЦ. Решения MALLTECH Lab
-                        помогают собственникам или управляющим торговыми центрами принимать правильные решения и
-                        существенно увеличить доходность объектов.
-                    </p>
-                    <p class="info__item">
-                        Все продукты MALLTECH Lab уже интегрированы и успешно применяются в торговых центрах MALLTECH.
-                    </p>
+        <section class="hero">
+            <div class="hero__container">
+                <div>
+                    <div class="hero__title-big">боль</div>
+                    <div class="hero__title-ordinary">в пояснице?</div>
                 </div>
+                <h2 class="hero__title-red">Поможем избавиться от боли<br> без уколов или операции</h2>
+                <ul>
+                    <li>Комплекс физических упражнений на каждую неделю</li>
+                    <li>Прохождение мышечных тестов для оценки состояния</li>
+                    <li>Консультации врача-ортопеда</li>
+                </ul>
+                <button class="cta">получить консультацию онлайн</button>
             </div>
         </section>
-
-        <section class="tools">
-            <div class="container">
-                <div class="tools__content">
-                    <h1 class="tools__content-title">
-                        Цифровые инструменты управления ТРЦ
-                    </h1>
-
-                    <p>
-                        Программные продукты, позволяющие оптимизировать управление коммерческими объектами
-                    </p>
-
-                    <p>
-                        С их помощью можно ставить задачи подрядным организациям, фиксировать инциденты на объектах
-                        и проблемы в их эксплуатации в режиме онлайн, собирать обратную связь посетителей о работе
-                        ТРЦ и многое другое.
-                    </p>
-
-                    <p>
-                        Проблемы в их эксплуатации в режиме онлайн, собирать обратную связь посетителей о работе
-                        ТРЦ и многое другое.
-                    </p>
-
-                    <div class="tools__content-link">
-                        Подробнее
-                        <svg class="link-arrow">
-                            <use xlink:href="./icons/sprite.svg#arrow_link"></use>
-                        </svg>
-                    </div>
+        <section class="what">
+            <div class="what__container">
+                <div class="what__header">
+                    Что предлагает отечественная медицина<br> при болях в пояснице
                 </div>
-                <div class="tools__image">
-                    <img srcset="./img/mobile/mobile_simka.jpg 320w,
-                                ./img/tablet/simka_tablet.jpg 350w,
-                                ./img/desktop/simka_desktop.jpg 621w" sizes="(max-width: 480px) 320px,
-                                (max-width: 768px) 450px,
-                                (max-width: 1366px) 650px,
-                                875px" src="./img/simka.jpg" alt="simka">
-                </div>
-            </div>
-        </section>
+                <div class="what__carddeck">
 
-        <section class="management">
-            <div class="container">
-                <div class="management__image">
-                    <img srcset="./img/mobile/mobile_laptop.png 320w,
-                                ./img/tablet/laptop_tablet.jpg 332w,
-                                ./img/desktop/laptop_desktop.jpg 590w" sizes="(max-width: 480px) 300px,                        
-                               (max-width: 768px) 450px,
-                               (max-width: 1366px) 650px,
-                               831px" src="./img/market.jpg" alt="managment">
-                </div>
-
-                <div class="management__content">
-
-                    <div class="management__column">
-                        <p class="management__column__title">
-                            mars
+                    <div class="what__card">
+                        <img src="./img/Group 12.png" alt="" srcset="">
+                        <h3>1. Простые процедуры</h3>
+                        <p class="what__card__text">
+                            При походе в поликлинику начинают с массажа, грязелечения,
+                            обертывания воском, малых токов и прочими безобидными, но часто бесполезными процедурами.
                         </p>
-                        <div class="management__link">
-                            Подробнее
-                            <svg class="management__link-arrow link-arrow">
-                                <use xlink:href="./icons/sprite.svg#arrow_link"></use>
+                        <div>
+                            <p class="what__card__small-text">
+                                Первое обращение
+                            </p>
+                            <svg class="what__card__line">
+                                <use xlink:href="./icons/sprite.svg#whatline"></use>
                             </svg>
                         </div>
                     </div>
 
-                    <div class="content__column">
-                        <p class="management__column__item">
-                            Собственная система умного менеджмента торгово-развлекательным центром MARS основана
-                            на одноименной Big Data технологии.
+                    <div class="what__card">
+                        <img src="./img/Group 13.png" alt="" srcset="">
+                        <h3>2. Обезболивающие</h3>
+                        <p class="what__card__text">
+                            Если это все не помогает, то
+                            врач выписывает обезболивающие. Cначала в малых дозах и с “не сильные”. Организм привыкает и
+                            боль возвращается.
                         </p>
-                        <p class="management__column__item">
-                            Ее использование позволяет вести комплексный мониторинг всех процессов, выявлять слабые
-                            места в системе управления ТРЦ и оперативно их устранять, что позитивно отражается как
-                            на работе всего центра в целом, так и каждого арендатора в отдельности.
+                        <div>
+                            <p class="what__card__small-text">
+                                Через пол года
+                            </p>
+                            <svg class="what__card__line">
+                                <use xlink:href="./icons/sprite.svg#whatline"></use>
+                            </svg>
+                        </div>
+                    </div>
+
+                    <div class="what__card">
+                        <img src="./img/Group 14.png" alt="" srcset="">
+                        <h3>3. Сильные препараты</h3>
+                        <p class="what__card__text">
+                            Далее - сильнодействующие препараты по рецепту. через полгода-год и они
+                            перестают помогать. Обычно переходят к уколам в спину. или блокаде. “помогает” примерно на
+                            год.
                         </p>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-
-        <section class="agency">
-            <div class="container">
-                <div class="agency__image"></div>
-                <div class="agency__text">
-                    <h1 class="agency__title">
-                        Маркетинговое агенство
-                    </h1>
-
-                    <p>
-                        Комплекс продуктов, предназначенных для существенного увеличения доходности торгового центра.
-                    </p>
-                    <p class="agency__title">
-                        Решения, представленные в этом семействе, позволяют увеличить лояльность постоянных посетителей
-                        ТРЦ и привлекать новых. Они помогают собственнику или управляющему ТРЦ лучше узнать своего
-                        потребителя, увеличить товарооборот и средний чек, а также более тонко настраивать маркетинговые
-                        активности.
-                    </p>
-
-                    <div class="agency__link">
-                        Подробнее
-
-                        <svg class="link-arrow">
-                            <use xlink:href="./icons/sprite.svg#arrow_link"></use>
-                        </svg>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="press">
-            <div class="container">
-
-                <div class="press__header">
-                    <h1 class="press__header__title">
-                        Пресс-центр
-                    </h1>
-
-                    <div class="press__header__link">
-                        Все публикации
-                        <svg class="link-arrow">
-                            <use xlink:href="./icons/sprite.svg#arrow_link"></use>
-                        </svg>
-                    </div>
-                </div>
-
-                <!-- Slider -->
-                <div class="press__slider">
-
-                    <div class="slider__inner">
-                        <div class="slider__box">
-                            <div class="slider__box-item">
-                                <img class="press__slider-img" srcset="./img/tablet/press_tablet.jpg 228w,
-                                        ./img/mobile/mobile_press.jpg 288w,
-                                        ./img/desktop/press_desktop.jpg 405w" sizes="(max-width: 480px) 320px,                        
-                                    (max-width: 768px) 270px,
-                                    (max-width: 1366px) 470px,
-                                    570px" src="./img/market.jpg" alt="press">
-
-                                <div class="press__slider-info">
-                                    <h2 class="press__slider-title">
-                                        Вышел журнал «Аэропорт Пермь» с нашей «Планетой» на первой обложке
-                                    </h2>
-                                    <div class="press__slider-text-wrapper">
-                                        <p class="press__slider-text">
-                                            Комплекс продуктов, предназначенных
-                                            для существенного
-                                            увеличения доходности
-                                            торгового центра.</p>
-                                        <p class="press__slider-text">Решения, представленные в этом семействе,
-                                            позволяют
-                                            увеличить лояльность постоянных
-                                            посетителей ТРЦ и привлекать новых. Они помогают собственнику или
-                                            управляющему
-                                            ТРЦ
-                                            лучше
-                                            узнать своего потребителя, увеличить товарооборот и средний чек, а также
-                                            более
-                                            тонко
-                                            настраивать маркетинговые активности.</p>
-                                    </div>
-                                    <p class="press__slider-data">
-                                        20 мая, 2021
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="slider__box-item">
-                                <img class="press__slider-img" srcset="./img/tablet/press_tablet.jpg 228w,
-                                            ./img/mobile/mobile_press.jpg 288w,
-                                            ./img/desktop/press_desktop.jpg 405w" sizes="(max-width: 480px) 320px,                        
-                                        (max-width: 768px) 270px,
-                                        (max-width: 1366px) 470px,
-                                        570px" src="./img/market.jpg" alt="press">
-
-                                <div class="press__slider-info">
-                                    <h2 class="press__slider-title">
-                                        Вышел журнал «Аэропорт Пермь» с нашей «Планетой» на первой обложке
-                                    </h2>
-                                    <div class="press__slider-text-wrapper">
-                                        <p class="press__slider-text">Комплекс продуктов, предназначенных
-                                            для существенного
-                                            увеличения доходности
-                                            торгового центра.</p>
-                                        <p class="press__slider-text">Решения, представленные в этом семействе,
-                                            позволяют
-                                            увеличить лояльность постоянных
-                                            посетителей ТРЦ и привлекать новых. Они помогают собственнику или
-                                            управляющему
-                                            ТРЦ
-                                            лучше
-                                            узнать своего потребителя, увеличить товарооборот и средний чек, а также
-                                            более
-                                            тонко
-                                            настраивать маркетинговые активности.</p>
-                                    </div>
-                                    <p class="press__slider-data">
-                                        20 мая, 2021
-                                    </p>
-                                </div>
-                            </div>
+                        <div>
+                            <p class="what__card__small-text">
+                                Через год
+                            </p>
+                            <svg class="what__card__line">
+                                <use xlink:href="./icons/sprite.svg#whatline"></use>
+                            </svg>
                         </div>
                     </div>
-                </div>
-            </div>
-        </section>
 
-        <section class="case">
-            <div class="container">
-                <h1 class="case__title">Кейсы</h1>
-                <div class="case__slider-box">
-                    <div class="case__slider-item">
-
-                        <div class="case__slider-info">
-                            <h2 class="case__slider-title">
-                                Внедрение системы контроля персонала MARS в ТРЦ «Молния»
-                            </h2>
-                            <div class="case__slider-content">
-                                <p class="case__slider-text">
-                                    Кейс описывает процесс внедрения системы контроля персонала в торговом
-                                    комплексе
-                                    «Молния».
-                                </p>
-                                <p class="case__slider-text">
-                                    Кейс описывает процесс внедрения системы контроля персонала в торговом
-                                    комплексе
-                                    «Молния».
-                                </p>
-                            </div>
-                            <div class="case__slider-link">
-                                Читать полностью
-                                <svg class="link-arrow">
-                                    <use xlink:href="./icons/sprite.svg#arrow_link"></use>
-                                </svg>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="case__slider-item">
-
-                        <div class="case__slider-info">
-                            <h2 class="case__slider-title">
-                                Внедрение системы контроля персонала MARS в ТРЦ «Молния»
-                            </h2>
-                            <div class="case__slider-content">
-                                <p class="case__slider-text">
-                                    Кейс описывает процесс внедрения системы контроля персонала в торговом
-                                    комплексе «Молния».
-                                </p>
-                                <p class="case__slider-text">
-                                    Кейс описывает процесс внедрения системы контроля персонала в торговом
-                                    комплексе «Молния».
-                                </p>
-                            </div>
-                            <div class="case__slider-link">
-                                Читать полностью
-                                <svg class="link-arrow">
-                                    <use xlink:href="./icons/sprite.svg#arrow_link"></use>
-                                </svg>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <svg class="case__prev-button">
-                    <use xlink:href="./icons/sprite.svg#case_arrow_right"></use>
-                </svg>
-                <svg class="case__next-button">
-                    <use xlink:href="./icons/sprite.svg#case_arrow_right"></use>
-                </svg>
-            </div>
-        </section>
-
-        <section class="request">
-            <div class="container">
-                <div class="request__wrapper">
-                    <div class="request__info">
-                        <div class="request__title">
-                            Оставьте
-                            заявку
-                        </div>
-                        <p class="request__subtitle">
-                            Расскажите о проекте и задайте вопросы — мы скоро ответим
+                    <div class="what__card">
+                        <img src="./img/Group 15.png" alt="" srcset="">
+                        <h3>4. Операция</h3>
+                        <p class="what__card__text">
+                            Так как проблема не уходит, а наоборот благодаря такой помощи мышцы спины
+                            окончательно деградировали то обычный финиш это хирургическая операция.
                         </p>
-                        <div class="request__contact">
-                            <a class="request__contact-telephone" href="tel:+74951525120">+7 (495) 152-51-20</a>
-                            <a class="request__contact-email" href="mailto:hello@malltech.ru">hello@malltech.ru</a>
+                        <div>
+                            <p class="what__card__small-text">
+                                Через год - три
+                            </p>
+                            <svg class="what__card__line">
+                                <use xlink:href="./icons/sprite.svg#whatline"></use>
+                            </svg>
                         </div>
-                    </div>
-                    <div class="request__form">
-                        <form class="form" action="">
-                            <div class="form__content">
-                                <input type="text" class="form__name" placeholder="Имя *" required>
-                                <input type="text" class="form__tel" placeholder="Телефон *">
-                            </div>
-                            <input type="text" class="form__email" placeholder="Почта">
-                            <div class="select__wrapper">
-                                <select name="" id="" class="form__theme">
-                                    <option value="" disabled selected hidden>Тема обращения</option>
-                                    <option class="form__theme-option" value="1">Тема 1</option>
-                                    <option class="form__theme-option" value="2">Тема 2</option>
-                                    <option class="form__theme-option" value="3">Тема 3</option>
-                                </select>
-                            </div>
-                            <div class="form__submit">
-                                <p class="form__description">
-                                    Нажав на кнопку, соглашаюсь на обработку
-                                    <a class="form__link" href=#>персональных данных</a>
-                                </p>
-                                <input class="form__btn" type="submit" value="Отправить">
-                            </div>
-                        </form>
                     </div>
                 </div>
             </div>
         </section>
+        <section class="w"></section>
+        <section class="release"></section>
+        <section class="cure"></section>
+        <section class="howitworks"></section>
+        <section class="ordinary"></section>
+        <section class="whattodo"></section>
+        <section class="healphy"></section>
+        <section class="reviews"></section>
+        <section class="slider"></section>
+        <section class="denis"></section>
+        <section class="examples"></section>
+        <section class="whywe"></section>
+        <section class="step"></section>
+        <section class="contacts"></section>
     </main>
-    <footer class="footer">
+    <footer>
         <div class="container">
-            <div class="footer__inner">
-                <div class="footer__info">
-                    <div class="footer__description">
-                        &copy; 2021 Malltech.Lab — Разработка продуктов для цифрового управления бизнесом ТРЦ
-                    </div>
-                    <div class="footer__links">
-                        <a class="footer__links-item" href="#"><span class="footer__links-border">Политика
-                                конфиденциальности</span></a>
-                        <a class="footer__links-item" href="#"><span class="footer__links-border">Условия
-                                использования</span></a>
-                    </div>
-                </div>
-                <div class="footer__logo">
-                    <svg class="footer__logo-img">
-                        <use xlink:href="./icons/sprite.svg#footer-logo"></use>
-                    </svg>
-                    <div class="footer__logo-text">Создание сайта —
-                        компания &laquo;Пиксель Плюс&raquo;</div>
-                </div>
-            </div>
+            <p>© 2011-2021 orthoped.pro</p>
+            <use></use>
+            <use></use>
         </div>
+
     </footer>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="js/jquery-3.6.0.min.js"></script>
     <script src="js/slick.min.js"></script>
     <script src="js/main.js"></script>
 </body>

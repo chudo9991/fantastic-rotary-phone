@@ -1,7 +1,6 @@
 $(function () {
-    $('.slider__box').slick()
-    $('.case__slider-box').slick({
-        prevArrow: $('.case__prev-button'),
-        nextArrow: $('.case__next-button')
+    $('.slider__box').slick({
+        prevArrow: $('.press__prev-button'),
+        nextArrow: $('.press__next-button')
     })
 });

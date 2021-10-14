@@ -2,29 +2,34 @@ $desktop: 1366px;
 $tablets: 768px;
 $phones: 480px;
 
+$bgcolor: #fafafa;
+
 $baseFontSize: 14px;
 
-%title-font{
-    font-family: Inter;
-    font-weight: 300;
+%logo-font {
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: rem(30px);
+    line-height: rem(41px);
+    color: #000000;
 }
 
-%subtitle-font{
-    font-family: Inter;
-    font-weight: 400;
+%normal-font {
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: normal;
+    font-size: rem(16px);
+    line-height: rem(22px);
+    color: #000000;
 }
 
-%link-font{
-    font-family: Inter;
-    font-weight: 500;
-}
-
-%contact-font{
-    font-family: Inter;
-    font-weight: 600;
-}
-
-%footer-font{
-    font-family: 'Open Sans';
-    font-weight: 400;
+%header-font {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 900;
+    font-size: rem(62px);
+    line-height: 120%;
+    text-transform: uppercase;
+    color: #222222;
 }
